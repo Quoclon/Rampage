@@ -16,8 +16,8 @@ TagManager:
   - Player
   - Enemy
   - Building
-  - 
-  - 
+  - Ground
+  - Climbable
   - 
   - 
   - 
