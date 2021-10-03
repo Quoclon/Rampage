@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Window
   - Brick
+  - Fist
+  - Breakable
   layers:
   - Default
   - TransparentFX

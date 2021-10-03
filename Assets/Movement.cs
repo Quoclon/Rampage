@@ -36,17 +36,50 @@ public class Movement : MonoBehaviour
 
     public bool wallSliding;
     public float wallSlidingSpeed;
-   
+
+    public GameObject punchGameObject;
+    public float punchGOactiveTimer;
+    public float punchGOactiveTimerTotal;
+
+    public float punchTimer;
+    public float punchTimerTotal;
+       
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         currentGravity = defaultGravity;
+        punchTimer = punchTimerTotal;
+        punchGOactiveTimer = punchGOactiveTimerTotal;
+    }
+
+    public void HandlePunch()
+    {
+        if(punchTimer >= 0)
+            punchTimer -= Time.deltaTime;
+
+        if(punchGameObject.activeInHierarchy)
+            punchGOactiveTimer -= Time.deltaTime;
+
+        if(punchGOactiveTimer <= 0)
+        {
+            punchGameObject.SetActive(false);
+            punchGOactiveTimer = punchGOactiveTimerTotal;
+        }
+
+        if (Input.GetKeyDown(KeyCode.J) && punchTimer <= 0.2f)
+        {
+            punchGameObject.SetActive(true);
+            punchTimer = punchTimerTotal;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+
+
+        HandlePunch();
 
 
         //Check if Grounded and Touching (using a "checkRadious" ~)
