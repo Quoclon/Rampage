@@ -15,10 +15,14 @@ public class BlockScript : MonoBehaviour
 
     public int blockState;
 
+    public GameObject roof;
+
     // Start is called before the first frame update
     void Start()
     {
-        blockState = 0;   
+        blockState = 0;
+        if (isTopBlock)
+            roof.SetActive(true);
     }
 
     // Update is called once per frame
