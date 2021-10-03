@@ -1,0 +1,2316 @@
+fileFormatVersion: 2
+guid: 5d755533bb01df54a90cebd73021f9e0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3199383595944831897
+    second: NES - Rampage - George_0
+  - first:
+      213: 2017379696001497126
+    second: NES - Rampage - George_1
+  - first:
+      213: 3269224287404877077
+    second: NES - Rampage - George_2
+  - first:
+      213: -1808338091569085349
+    second: NES - Rampage - George_3
+  - first:
+      213: 5972249761058371163
+    second: NES - Rampage - George_4
+  - first:
+      213: 7307809588334284934
+    second: NES - Rampage - George_5
+  - first:
+      213: -5401708377028229026
+    second: NES - Rampage - George_6
+  - first:
+      213: 5255923950041888078
+    second: NES - Rampage - George_7
+  - first:
+      213: -7335042193092057290
+    second: NES - Rampage - George_8
+  - first:
+      213: 466590153605950660
+    second: NES - Rampage - George_9
+  - first:
+      213: 5968023185077330360
+    second: NES - Rampage - George_10
+  - first:
+      213: -486346197731562960
+    second: NES - Rampage - George_11
+  - first:
+      213: 178540367104398186
+    second: NES - Rampage - George_12
+  - first:
+      213: -498630184925876430
+    second: NES - Rampage - George_13
+  - first:
+      213: 6200493741064587884
+    second: NES - Rampage - George_14
+  - first:
+      213: -701984184955730162
+    second: NES - Rampage - George_15
+  - first:
+      213: 389416771267439439
+    second: NES - Rampage - George_16
+  - first:
+      213: -686132705510112660
+    second: NES - Rampage - George_17
+  - first:
+      213: 6323027690780762231
+    second: NES - Rampage - George_18
+  - first:
+      213: 5441458791146416286
+    second: NES - Rampage - George_19
+  - first:
+      213: -2812248139114832806
+    second: NES - Rampage - George_20
+  - first:
+      213: 4535228700405386156
+    second: NES - Rampage - George_21
+  - first:
+      213: -8319218588048391177
+    second: NES - Rampage - George_22
+  - first:
+      213: -7019490790889717356
+    second: NES - Rampage - George_23
+  - first:
+      213: -4104311892632399313
+    second: NES - Rampage - George_24
+  - first:
+      213: -9124595840521747675
+    second: NES - Rampage - George_25
+  - first:
+      213: 4791012369955568260
+    second: NES - Rampage - George_26
+  - first:
+      213: 5694882251069514426
+    second: NES - Rampage - George_27
+  - first:
+      213: 378674939374778750
+    second: NES - Rampage - George_28
+  - first:
+      213: 6529471313762436045
+    second: NES - Rampage - George_29
+  - first:
+      213: -8216447669555389436
+    second: NES - Rampage - George_30
+  - first:
+      213: -6943726826658192141
+    second: NES - Rampage - George_31
+  - first:
+      213: 656049691653165349
+    second: NES - Rampage - George_32
+  - first:
+      213: 1819282276353846773
+    second: NES - Rampage - George_33
+  - first:
+      213: 4803720543776421109
+    second: NES - Rampage - George_34
+  - first:
+      213: -1628385922815128895
+    second: NES - Rampage - George_35
+  - first:
+      213: 9052933868214574391
+    second: NES - Rampage - George_36
+  - first:
+      213: 2034919352278131680
+    second: NES - Rampage - George_37
+  - first:
+      213: -2171469706511798251
+    second: NES - Rampage - George_38
+  - first:
+      213: -2688865319620575006
+    second: NES - Rampage - George_39
+  - first:
+      213: -5608784452973906899
+    second: NES - Rampage - George_40
+  - first:
+      213: -2332217467539201815
+    second: NES - Rampage - George_41
+  - first:
+      213: -1751647462599589761
+    second: NES - Rampage - George_42
+  - first:
+      213: 2239053017742741795
+    second: NES - Rampage - George_43
+  - first:
+      213: -5121281500758751627
+    second: NES - Rampage - George_44
+  - first:
+      213: 3633321136970667376
+    second: NES - Rampage - George_45
+  - first:
+      213: -8781592266003869025
+    second: NES - Rampage - George_46
+  - first:
+      213: 183883626840842244
+    second: NES - Rampage - George_47
+  - first:
+      213: -2669928389025290997
+    second: NES - Rampage - George_48
+  - first:
+      213: -4035283120831375103
+    second: NES - Rampage - George_49
+  - first:
+      213: -7237197692014713514
+    second: NES - Rampage - George_50
+  - first:
+      213: 615973320251640492
+    second: NES - Rampage - George_51
+  - first:
+      213: 1730321271172256007
+    second: NES - Rampage - George_52
+  - first:
+      213: 1277401746760661629
+    second: NES - Rampage - George_53
+  - first:
+      213: 571955691374638369
+    second: NES - Rampage - George_54
+  - first:
+      213: 5034400213137834239
+    second: NES - Rampage - George_55
+  - first:
+      213: 6149862637315614496
+    second: NES - Rampage - George_56
+  - first:
+      213: 3471186307760528609
+    second: NES - Rampage - George_57
+  - first:
+      213: -8845318568676498479
+    second: NES - Rampage - George_58
+  - first:
+      213: 1872073258594492703
+    second: NES - Rampage - George_59
+  - first:
+      213: 314539095062579107
+    second: NES - Rampage - George_60
+  - first:
+      213: 9054558620048985589
+    second: NES - Rampage - George_61
+  - first:
+      213: -8453201785881632737
+    second: NES - Rampage - George_62
+  - first:
+      213: -4375335015453041326
+    second: NES - Rampage - George_63
+  - first:
+      213: 220374941766142960
+    second: NES - Rampage - George_64
+  - first:
+      213: -216636475208059892
+    second: NES - Rampage - George_65
+  - first:
+      213: 3258646055530611980
+    second: NES - Rampage - George_66
+  - first:
+      213: -6346682080577638145
+    second: NES - Rampage - George_67
+  - first:
+      213: -2012187292733672991
+    second: NES - Rampage - George_68
+  - first:
+      213: -4392314930533240862
+    second: NES - Rampage - George_69
+  - first:
+      213: -3567035686356486280
+    second: NES - Rampage - George_70
+  - first:
+      213: 8563451263451615900
+    second: NES - Rampage - George_71
+  - first:
+      213: 7610954380060259136
+    second: NES - Rampage - George_72
+  - first:
+      213: -2894863741916355712
+    second: NES - Rampage - George_73
+  - first:
+      213: 8546339547141629873
+    second: NES - Rampage - George_74
+  - first:
+      213: -6800087703491530036
+    second: NES - Rampage - George_75
+  - first:
+      213: -8814504089353786325
+    second: NES - Rampage - George_76
+  - first:
+      213: 3047586567710384956
+    second: NES - Rampage - George_77
+  - first:
+      213: -4461995090034311564
+    second: NES - Rampage - George_78
+  - first:
+      213: 2087856975412118568
+    second: NES - Rampage - George_79
+  - first:
+      213: -2475254123252502966
+    second: NES - Rampage - George_80
+  - first:
+      213: 2267247985334151084
+    second: NES - Rampage - George_81
+  - first:
+      213: 4264606016406521179
+    second: NES - Rampage - George_82
+  - first:
+      213: -8919260926479135270
+    second: NES - Rampage - George_83
+  - first:
+      213: 3637288544439322476
+    second: NES - Rampage - George_84
+  - first:
+      213: 640070268172252451
+    second: NES - Rampage - George_85
+  - first:
+      213: -8150182457301885538
+    second: NES - Rampage - George_86
+  - first:
+      213: 673464124496728611
+    second: NES - Rampage - George_87
+  - first:
+      213: -7704063498462938793
+    second: NES - Rampage - George_88
+  - first:
+      213: -4948332918104001778
+    second: NES - Rampage - George_89
+  - first:
+      213: -7596729755688072713
+    second: NES - Rampage - George_90
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NES - Rampage - George_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 150
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99be080fd6e766c20800000000000000
+      internalID: 3199383595944831897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 150
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628314d152c2ffb10800000000000000
+      internalID: 2017379696001497126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 150
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515e8d51b2e9e5d20800000000000000
+      internalID: 3269224287404877077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 150
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b548732361e77e6e0800000000000000
+      internalID: -1808338091569085349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 150
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56bbcde381b1e250800000000000000
+      internalID: 5972249761058371163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_5
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 150
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680dbd62a1e8a6560800000000000000
+      internalID: 7307809588334284934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 150
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e580bfeb9d64905b0800000000000000
+      internalID: -5401708377028229026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_7
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 150
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45f6b84cfac0f840800000000000000
+      internalID: 5255923950041888078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_8
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 150
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637ee34fcf1b43a90800000000000000
+      internalID: -7335042193092057290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 150
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cca069c549a97600800000000000000
+      internalID: 466590153605950660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 150
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b164d5877da2d250800000000000000
+      internalID: 5968023185077330360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 117
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03a295eb5b62049f0800000000000000
+      internalID: -486346197731562960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_12
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 117
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a635357948d4a7200800000000000000
+      internalID: 178540367104398186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 117
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fa4391d728419f0800000000000000
+      internalID: -498630184925876430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_14
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 117
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a0034b4349c0650800000000000000
+      internalID: 6200493741064587884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_15
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 117
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0785c16a1d0246f0800000000000000
+      internalID: -701984184955730162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_16
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 117
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ba9f08d7c776500800000000000000
+      internalID: 389416771267439439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 117
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62ca4b80fd5a76f0800000000000000
+      internalID: -686132705510112660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 128
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77022f51f28efb750800000000000000
+      internalID: 6323027690780762231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e986532c0f1f38b40800000000000000
+      internalID: 5441458791146416286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 139
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c9ec7a733e8f8d0800000000000000
+      internalID: -2812248139114832806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 117
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc1de697e50fe30800000000000000
+      internalID: 4535228700405386156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 117
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f38c8275c23c8c80800000000000000
+      internalID: -8319218588048391177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 117
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49184e80152c59e90800000000000000
+      internalID: -7019490790889717356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 76
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f221c38441e8a07c0800000000000000
+      internalID: -4104311892632399313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 76
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523c1be5d6cee5180800000000000000
+      internalID: -9124595840521747675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_26
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 76
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a34b9dd581d7240800000000000000
+      internalID: 4791012369955568260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_27
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 76
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2ecac0c39480f40800000000000000
+      internalID: 5694882251069514426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_28
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79b6ced9d2514500800000000000000
+      internalID: 378674939374778750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3c9e3b0975d9a50800000000000000
+      internalID: 6529471313762436045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 76
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c909c806059fd80800000000000000
+      internalID: -8216447669555389436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 76
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f420b79d3de2af90800000000000000
+      internalID: -6943726826658192141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_32
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 76
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521ddf9f7b1ca1900800000000000000
+      internalID: 656049691653165349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_33
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 76
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd2c3467936f3910800000000000000
+      internalID: 1819282276353846773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f43a04226e3aa240800000000000000
+      internalID: 4803720543776421109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 36
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca8b5971afc669e0800000000000000
+      internalID: -1628385922815128895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_36
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 36
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d580e736b72ad70800000000000000
+      internalID: 9052933868214574391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_37
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 36
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32b139e5c7d3c10800000000000000
+      internalID: 2034919352278131680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_38
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 36
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510b7de8ec36dd1e0800000000000000
+      internalID: -2171469706511798251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_39
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 36
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0062fec3b3faad0800000000000000
+      internalID: -2688865319620575006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_40
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 36
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24b1c2b1489922b0800000000000000
+      internalID: -5608784452973906899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_41
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 36
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e06d54e19c42afd0800000000000000
+      internalID: -2332217467539201815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_42
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 36
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f708904d9e5e0b7e0800000000000000
+      internalID: -1751647462599589761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_43
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 13
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32192db4bd6b21f10800000000000000
+      internalID: 2239053017742741795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576ce78db9d8de8b0800000000000000
+      internalID: -5121281500758751627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_45
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0751e0ce2562c6230800000000000000
+      internalID: 3633321136970667376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_46
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 13
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9295866c54812680800000000000000
+      internalID: -8781592266003869025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 13
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400ebd13f294d8200800000000000000
+      internalID: 183883626840842244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_48
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 13
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05aa6ca64282fad0800000000000000
+      internalID: -2669928389025290997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_49
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 13
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10957b6a16bcff7c0800000000000000
+      internalID: -4035283120831375103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 13
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655af2e1b0f409b90800000000000000
+      internalID: -7237197692014713514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 13
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa87b0a8706c8800800000000000000
+      internalID: 615973320251640492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 13
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701568b4706530810800000000000000
+      internalID: 1730321271172256007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_53
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 11
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7af127ee1e3ab110800000000000000
+      internalID: 1277401746760661629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_54
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 13
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125f5a3cbaeffe700800000000000000
+      internalID: 571955691374638369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_55
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 13
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff04b390258cdd540800000000000000
+      internalID: 5034400213137834239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_56
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 13
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027e4aa3c73b85550800000000000000
+      internalID: 6149862637315614496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_57
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec14474e812c2030800000000000000
+      internalID: 3471186307760528609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_58
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3eed450ad1f3580800000000000000
+      internalID: -8845318568676498479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_59
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f116804c5b0faf910800000000000000
+      internalID: 1872073258594492703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 3
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a78d25f3a77d5400800000000000000
+      internalID: 314539095062579107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd88f1871148ad70800000000000000
+      internalID: 9054558620048985589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_62
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10e3d143c130ba80800000000000000
+      internalID: -8453201785881632737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 3
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dd7962cffa743c0800000000000000
+      internalID: -4375335015453041326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_64
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 3
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb4e5987ddee0300800000000000000
+      internalID: 220374941766142960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_65
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04b4d9064a5efcf0800000000000000
+      internalID: -216636475208059892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_66
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0541ac8259093d20800000000000000
+      internalID: 3258646055530611980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_67
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff035dc164e0ce7a0800000000000000
+      internalID: -6346682080577638145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_68
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1fd0b71564314e0800000000000000
+      internalID: -2012187292733672991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efebe797dc5b03c0800000000000000
+      internalID: -4392314930533240862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_70
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877749531f75f7ec0800000000000000
+      internalID: -3567035686356486280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_71
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9257619d8d77d670800000000000000
+      internalID: 8563451263451615900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_72
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043f1312faa8f9960800000000000000
+      internalID: 7610954380060259136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_73
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083eaeda3c063d7d0800000000000000
+      internalID: -2894863741916355712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_74
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7ef35a982ba9670800000000000000
+      internalID: 8546339547141629873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_75
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b2e7134c31a1a0800000000000000
+      internalID: -6800087703491530036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_76
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce6d26b379ca580800000000000000
+      internalID: -8814504089353786325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_77
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3321a626d33b4a20800000000000000
+      internalID: 3047586567710384956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_78
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47eb7f43b1fc312c0800000000000000
+      internalID: -4461995090034311564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_79
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c2417bde89fc10800000000000000
+      internalID: 2087856975412118568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_80
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ea6b64d7126add0800000000000000
+      internalID: -2475254123252502966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_81
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 3
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7ef8fb702e67f10800000000000000
+      internalID: 2267247985334151084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_82
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5587eab39cee2b30800000000000000
+      internalID: 4264606016406521179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_83
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add8032917b683480800000000000000
+      internalID: -8919260926479135270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_84
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6747e4f8ae3a7230800000000000000
+      internalID: 3637288544439322476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_85
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32532b5848cf1e800800000000000000
+      internalID: 640070268172252451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_86
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d96e19c3cb4ee80800000000000000
+      internalID: -8150182457301885538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_87
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d8959d00a85900800000000000000
+      internalID: 673464124496728611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_88
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7593017e01ba51590800000000000000
+      internalID: -7704063498462938793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_89
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 3
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03f90aad6df35bb0800000000000000
+      internalID: -4948332918104001778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NES - Rampage - George_90
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f98291598ef29690800000000000000
+      internalID: -7596729755688072713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

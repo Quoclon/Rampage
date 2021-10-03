@@ -68,7 +68,7 @@ public class Movement : MonoBehaviour
         }
 
   
-        if (Input.GetKeyDown(KeyCode.J) && punchTimer <= 0.2f)
+        if (Input.GetKeyDown(KeyCode.H) && punchTimer <= 0.2f)
         {
             punchGameObject.SetActive(true);
             punchTimer = punchTimerTotal;
