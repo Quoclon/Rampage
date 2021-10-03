@@ -13,11 +13,20 @@ public class Movement : MonoBehaviour
 
     public bool isGrounded;
     public Transform groundCheck;
-    public float checkRadius;
+    public float groundCheckRadius;
     public LayerMask whatIsGround;
+
+    public float footCheckRadius;
+
+    public Transform leftGroundCheck;
+    public bool leftFootGrounded;
+
+    public Transform rightGroundCheck;
+    public bool rightFootGrounded;
 
     public bool isTouchingFront;
     public Transform frontCheck;
+    public float checkRadius;
     public LayerMask whatIsBuilding;
 
     public bool isClimbing;
@@ -37,12 +46,24 @@ public class Movement : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {    
+    {
+
 
         //Check if Grounded and Touching (using a "checkRadious" ~)
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        leftFootGrounded = Physics2D.OverlapCircle(leftGroundCheck.position, groundCheckRadius, whatIsGround);
+        rightFootGrounded = Physics2D.OverlapCircle(rightGroundCheck.position, groundCheckRadius, whatIsGround);
+
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+
         isJumping = isGrounded ? false : true;
 
+        /*
+        if (isGrounded && (leftFootGrounded || rightFootGrounded))
+            isJumping = false;
+        else
+            isJumping = true;
+        */
+   
         //Jump if grounded, but not touching building side
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isJumping && !isClimbing)
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + jumpForce);
@@ -61,8 +82,38 @@ public class Movement : MonoBehaviour
                 Flip();
         }
 
+        
+        //Climbing Down from Top
+        if (isGrounded && (!leftFootGrounded || !rightFootGrounded)){
+            if (Input.GetAxisRaw("Vertical") < 0)
+            {
+                Collider2D[] buildingBricks = Physics2D.OverlapCircleAll(groundCheck.position, groundCheckRadius, whatIsBuilding);
+                for (int i = 0; i < buildingBricks.Length; i++)
+                {
+                    lastClimbedBlock = buildingBricks[i].transform.parent.gameObject;
 
-        //Check for building and climb if possible
+                    Debug.Log(lastClimbedBlock.name);
+                    Debug.Log(lastClimbedBlock.transform.localScale.x);
+
+                    if(transform.localScale.x == lastClimbedBlock.transform.localScale.x)
+                    {
+                        transform.position = new Vector2(lastClimbedBlock.transform.position.x + transform.localScale.x, lastClimbedBlock.transform.position.y);
+                        Flip();
+                    }else
+                    {
+                        transform.position = new Vector2(lastClimbedBlock.transform.position.x - transform.localScale.x, lastClimbedBlock.transform.position.y);
+                    }
+
+
+                }
+
+                isClimbing = true;
+            }
+         
+        }
+        
+
+        //Check for building and climb if possibled
         isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, checkRadius, whatIsBuilding);
         if (Input.GetKeyDown(KeyCode.W) && isGrounded && isTouchingFront)
         {
@@ -77,7 +128,9 @@ public class Movement : MonoBehaviour
                 }
             }
         }
+        
 
+        //Check for last climbed block on each update
         if (isClimbing)
         {
             isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, checkRadius, whatIsBuilding);
@@ -87,15 +140,6 @@ public class Movement : MonoBehaviour
                 for (int i = 0; i < buildingBricks.Length; i++)
                 {
                     lastClimbedBlock = buildingBricks[i].transform.parent.gameObject;
-
-                    /*
-                    if (buildingBricks[i].transform.parent.GetComponent<BlockScript>().isTopBlock)
-                    {
-                        Transform topBlock = buildingBricks[i].transform.parent.gameObject.transform;
-                        transform.position = new Vector2(topBlock.position.x + 1, topBlock.position.y + transform.localScale.y);
-                        lastClimbedBlock = buildingBricks[i].transform.parent.gameObject;
-                    }
-                    */
                 }
             }
         }else
@@ -105,8 +149,9 @@ public class Movement : MonoBehaviour
         
 
 
-          if (isClimbing)
+        if (isClimbing)
         {
+            //Debug.Log("isClimbing");
             currentGravity = climbingGravity;
             float moveX = 0;
             float moveY = 0;
@@ -144,12 +189,15 @@ public class Movement : MonoBehaviour
             isJumping = true;
         }
 
-        if (isClimbing && (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)) && isGrounded)
-            isClimbing = !isClimbing;
-
         //Set Gravity
         currentGravity = isClimbing ? climbingGravity : defaultGravity;
-        rb.gravityScale = currentGravity;  
+        rb.gravityScale = currentGravity;
+
+        //~FIX - this relases you at bottom of climb, but breaks getting down from roof  
+        /*
+        if (isClimbing && (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D)) && isGrounded)
+            isClimbing = !isClimbing;
+        */
     }
 
     void Flip()
@@ -162,6 +210,15 @@ public class Movement : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(frontCheck.position, checkRadius);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
+
+        Gizmos.color = Color.blue;
+        Gizmos.DrawSphere(rightGroundCheck.position, footCheckRadius);
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawSphere(leftGroundCheck.position, footCheckRadius);
     }
 
 }
