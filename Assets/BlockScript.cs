@@ -4,23 +4,23 @@ using UnityEngine;
 
 public class BlockScript : MonoBehaviour
 {
+    public BuildingScript buildingScript;
+
     public bool isTopBlock;
     public bool isBreakable;
+    public bool isBroken;
     public bool isCountedInDestruction;
 
     public GameObject windowClosed;
     public GameObject windowOpen;
     public GameObject Brick;
     public GameObject BrickBroken;
-
-    public int blockState;
-
     public GameObject roof;
 
     // Start is called before the first frame update
     void Start()
     {
-        blockState = 0;
+        buildingScript = GetComponentInParent<BuildingScript>();
         if (isTopBlock)
             roof.SetActive(true);
     }
@@ -31,4 +31,20 @@ public class BlockScript : MonoBehaviour
         
     }
 
+    public void BreakBlocks()
+    {
+        if (isBroken)
+            return;
+
+        //Adjust Sprites
+        windowOpen.SetActive(false);
+        windowClosed.SetActive(false);
+        Brick.SetActive(false);
+        BrickBroken.SetActive(true);
+
+        isBroken = true;
+
+        //Break Block at Building Level
+        buildingScript.BreakBlock();
+    }
 }

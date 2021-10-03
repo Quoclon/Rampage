@@ -67,11 +67,14 @@ public class Movement : MonoBehaviour
             punchGOactiveTimer = punchGOactiveTimerTotal;
         }
 
+  
         if (Input.GetKeyDown(KeyCode.J) && punchTimer <= 0.2f)
         {
             punchGameObject.SetActive(true);
             punchTimer = punchTimerTotal;
         }
+        
+       
     }
 
     // Update is called once per frame
