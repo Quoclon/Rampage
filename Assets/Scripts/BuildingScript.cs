@@ -34,7 +34,7 @@ public class BuildingScript : MonoBehaviour
     public void BreakBlock()
     {
         brokenBlocks++;
-        Debug.Log(brokenBlocks);
+        //Debug.Log(brokenBlocks);
 
         if(brokenBlocks >= blocks.Count / 2)
         {
