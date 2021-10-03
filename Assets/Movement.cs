@@ -21,6 +21,7 @@ public class Movement : MonoBehaviour
     public LayerMask whatIsBuilding;
 
     public bool isClimbing;
+    public GameObject lastClimbedBlock;
 
     public bool isJumping;
 
@@ -66,19 +67,45 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W) && isGrounded && isTouchingFront)
         {
             Collider2D[] buildingBricks = Physics2D.OverlapCircleAll(frontCheck.position, checkRadius, whatIsBuilding);
+           
             for (int i = 0; i < buildingBricks.Length; i++)
             {
-                if (transform.localScale.x != buildingBricks[i].transform.localScale.x)
+                if (transform.localScale.x != buildingBricks[i].transform.parent.localScale.x)
                 {
-                    transform.position = new Vector2(buildingBricks[i].transform.position.x + buildingBricks[i].transform.localScale.x, transform.position.y);
+                    transform.position = new Vector2(buildingBricks[i].transform.position.x - (transform.localScale.x/2), transform.position.y);
                     isClimbing = true;
-                    break;
                 }
             }
         }
 
-       
         if (isClimbing)
+        {
+            isTouchingFront = Physics2D.OverlapCircle(frontCheck.position, checkRadius, whatIsBuilding);
+            if (isTouchingFront)
+            {
+                Collider2D[] buildingBricks = Physics2D.OverlapCircleAll(frontCheck.position, checkRadius, whatIsBuilding);
+                for (int i = 0; i < buildingBricks.Length; i++)
+                {
+                    lastClimbedBlock = buildingBricks[i].transform.parent.gameObject;
+
+                    /*
+                    if (buildingBricks[i].transform.parent.GetComponent<BlockScript>().isTopBlock)
+                    {
+                        Transform topBlock = buildingBricks[i].transform.parent.gameObject.transform;
+                        transform.position = new Vector2(topBlock.position.x + 1, topBlock.position.y + transform.localScale.y);
+                        lastClimbedBlock = buildingBricks[i].transform.parent.gameObject;
+                    }
+                    */
+                }
+            }
+        }else
+        {
+            lastClimbedBlock = null;
+        }
+        
+
+
+          if (isClimbing)
         {
             currentGravity = climbingGravity;
             float moveX = 0;
@@ -89,7 +116,23 @@ public class Movement : MonoBehaviour
                 moveY = Input.GetAxisRaw("Vertical") * (moveSpeed / 2);
 
             if (!isTouchingFront)
-                moveY = Mathf.Clamp(Input.GetAxisRaw("Vertical") * (moveSpeed / 2), float.MinValue, 0f);
+            {
+                if(Input.GetAxisRaw("Vertical") > 0.1f)
+                {
+                    isClimbing = false;
+                    if(lastClimbedBlock != null)
+                    {
+                        Transform topBlock = lastClimbedBlock.transform;
+                        moveX = 0;
+                        moveY = 0;
+                        transform.position = new Vector2(topBlock.position.x, topBlock.position.y + transform.localScale.y / 2);
+                    }
+                }
+                else
+                {
+                    moveY = Mathf.Clamp(Input.GetAxisRaw("Vertical") * (moveSpeed / 2), float.MinValue, 0f);
+                }
+            }
 
             rb.velocity = new Vector2(moveX, moveY);
         }
