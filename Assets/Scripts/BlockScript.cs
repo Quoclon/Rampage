@@ -33,9 +33,6 @@ public class BlockScript : MonoBehaviour
     public GameObject[] spawnableEnemy;
     public bool isEnemySpawned;
 
-    [Header("Timer Stuff")]
-    public float currentTime;
-    public float targetTime;
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +58,43 @@ public class BlockScript : MonoBehaviour
         HandleTimer();
     }
 
+    public void SpawnEnemy()
+    {
+        //After Countdown, random chance to spawn enemy
+        int randomChance = Random.Range(0, 6);
+
+        if(randomChance == 0 && canSpawnEnemies && !isBroken)
+        {
+            EnemySpawnBlockUpdate();
+
+            //Spawn Random Game Object
+            int randomItem = Random.Range(0, spawnableEnemy.Length);
+            Instantiate(spawnableEnemy[Random.Range(0, spawnableEnemy.Length)], transform);
+            isEnemySpawned = true;
+        }
+    }
+
+
+
+
+    #region BlockChanges
+    void EnemySpawnBlockUpdate()
+    {
+        //Deactivate Sprites
+        BrickBroken.SetActive(false);
+        windowClosed.SetActive(false);
+
+        //Activate Sprites
+        Brick.SetActive(true);
+        windowOpen.SetActive(true);
+    }
+
+    public void KillEnemy()
+    {
+
+    }
+
+
     //Typically Called from the PunchScript - which has the collider
     public void BreakBlocks()
     {
@@ -84,25 +118,19 @@ public class BlockScript : MonoBehaviour
         //Spawn Random Game Object
         //~Check if building destroyed, if not do not spawn
         int randomItem = Random.Range(0, spawnableItem.Length + 1);
-        if(randomItem < spawnableItem.Length)
+        if (randomItem < spawnableItem.Length)
             Instantiate(spawnableItem[Random.Range(0, spawnableItem.Length)], transform);
     }
+    #endregion
 
-    public void SpawnEnemy()
-    {
-        //After Countdown, random chance to spawn enemy
-        int randomChance = Random.Range(0, 6);
-
-        if(randomChance == 0 && canSpawnEnemies)
-        {
-            //Spawn Random Game Object
-            int randomItem = Random.Range(0, spawnableEnemy.Length);
-            Instantiate(spawnableEnemy[Random.Range(0, spawnableEnemy.Length)], transform);
-            isEnemySpawned = true;
-        }
-    }
 
     #region Timer Stuff
+    //Variables
+    [Header("Timer Stuff")]
+    public float currentTime;
+    public float targetTime;
+    public float randomTimeAdjuster;
+
     private void HandleTimer()
     {
         currentTime -= Time.deltaTime;
@@ -124,7 +152,7 @@ public class BlockScript : MonoBehaviour
 
     void ResetTimerWithRandomRange()
     {
-        currentTime = targetTime + Random.Range((-targetTime/2), (targetTime/2)+1);
+        currentTime = targetTime + UnityEngine.Random.Range((-randomTimeAdjuster), (randomTimeAdjuster));
     }
     #endregion
 
